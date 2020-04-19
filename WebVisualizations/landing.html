@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="import" href="import.html">
+    <title>Landing</title>
+  </head>
+  <body>
+    <!---------------------------------------------------------------------
+      Start of Navigation Bar
+    ---------------------------------------------------------------------->
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="landing.html">
+            <img src="Resources/Logo.svg" width="120" height="60" alt="Hemispheric Weather Logo">
+          </a>
+        </div>
+        <div class="navbar-nav navbar-right">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Visualizations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="vis_cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="vis_humidity.html">Humidity</a>
+              <a class="dropdown-item" href="vis_temperature.html">Temperature</a>
+              <a class="dropdown-item" href="vis_wind_speed.html">Wind Speed</a>
+            </div>
+            </li>
+          <li class="nav-item"><a class="nav-link" href="comparison.html">Comparison</a></li>
+          <li class="nav-item"><a class="nav-link" href="data.html">Data</a></li>
+        </div>
+      </div>
+    </nav>
+    <!---------------------------------------------------------------------
+      Start of Unique Page Content
+    ---------------------------------------------------------------------->
+    <div class="container-fluid">
+      <!------------------------------------------------------------------- 
+        Row One
+      -------------------------------------------------------------------->
+      <div class="row">
+        <div class="col-md-7">
+          <h1>Study Introduction</h1>
+          <hr style="height:1px"/>
+          <p>This website demonstrates the variation of four weather attributes with latitude.</p>
+          <p>This plot of temperature (below) is useful to point out common similarities and characteristics of the plots of the weather attributes.</p>
+          <li>The x-axis shows latitude, with the South Pole on the left and the North Pole on the left.</li>
+          <li>Though an x-axis range of -90 to 90 would be appropriate, the x-axis limits of these plots were influenced by only the Northern Hemisphere containing cities between 60 and 80 degrees of latitude.</li>
+          <li>This study contains more cities from the Northern Hemisphere.</li>
+          <li>This study contains weather attributes measured on January 5th, 2017; summer in the Southern Hemisphere and winter in the Northern Hemisphere.</li>      
+          <img class="img-fluid" src="Resources/Temperature.png"/>
+        </div>
+        <div class="col-md-5">
+          <h1>Visualizations</h1>
+          <hr style="height:1px"/>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6 d-flex justify-content-center">
+                <a href="vis_temperature.html">
+                  <img class="img-fluid border" src="Resources/Temperature.png"/>
+                </a>
+              </div>
+              <div class="col-md-6 d-flex justify-content-center">
+                <a href="vis_humidity.html">
+                  <img class="img-fluid" src="Resources/Humidity.png"/>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 d-flex justify-content-center">
+                <a href="vis_cloudiness.html">
+                  <img class="img-fluid" src="Resources/Cloudiness.png"/>
+                </a>
+              </div>
+              <div class="col-md-6 d-flex justify-content-center">
+                <a href="vis_wind_speed.html">
+                  <img class="img-fluid" src="Resources/WindSpeed.png"/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!------------------------------------------------------------------- 
+        Row Two
+      -------------------------------------------------------------------->
+      <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+          <p>This site attempts to answer these questions and more...</p>
+        </div>
+      </div>
+      <!------------------------------------------------------------------- 
+        Row Three
+      -------------------------------------------------------------------->
+      <div class="row">
+        <div class="col-3 d-flex justify-content-center">
+          <h3>Cloudiness</h3>
+        </div>
+        <div class="col-3 d-flex justify-content-center">
+          <h3>Humidity</h3>
+        </div>
+        <div class="col-3 d-flex justify-content-center">
+          <h3>Temperature</h3>
+        </div>
+        <div class="col-3 d-flex justify-content-center">
+          <h3>Wind Speed</h3>
+        </div>
+      </div>
+      <!------------------------------------------------------------------- 
+        Row Four
+      -------------------------------------------------------------------->
+      <div class="row">
+        <div class="col-3">
+          <ul class="list-group">
+            <li class="list-group-item">Are clouds formed from snow at the poles?</li>
+            <li class="list-group-item">Does the spin of the earth sling clouds towards the equator?</li>
+            <li class="list-group-item">Are clouds sparser at the equator because the earth is widest there?</li>
+          </ul>        
+        </div>
+        <div class="col-3">
+          <ul class="list-group">
+            <li class="list-group-item">Are the poles high and dry?</li>
+            <li class="list-group-item">Do the Tropic of Cancer and the Tropic of Capricorn indicate regions of tropical humidity?</li>
+            <li class="list-group-item">Does the sun's intense heat dry out the air along the equator?</li>
+          </ul>        
+        </div>
+        <div class="col-3">
+          <ul class="list-group">
+            <li class="list-group-item">Are the poles heated by the friction of the earth spinning on its axis?</li>
+            <li class="list-group-item">Are there any temperatures below 72 degrees between the Tropics of Cancer and Capricorn?</li>
+            <li class="list-group-item">Is the temperature uniformly hot along the equator?</li>
+          </ul>        
+        </div>
+        <div class="col-3">
+          <ul class="list-group">
+            <li class="list-group-item">Is the wind calm at the poles, like the eye of a hurricane?</li>
+            <li class="list-group-item">If the hemispheres have independent weather systems, are the winds highest at the central latitude of 45 degrees?</li>
+            <li class="list-group-item">Are there significant doldrums along the equator?</li>
+          </ul>        
+        </div>
+      </div>
+    </div>
+    <footer>&copy; Copyright 2020 Studio 58</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

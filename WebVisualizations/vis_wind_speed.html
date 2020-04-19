@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="import" href="import.html">
+    <title>Wind Speed</title>
+  </head>
+  <body>
+    <!---------------------------------------------------------------------
+      Start of Navigation Bar
+    ---------------------------------------------------------------------->
+    <nav class="navbar navbar-light bg-light navbar-expand-sm">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="landing.html">
+            <img src="Resources/Logo.svg" width="120" height="60" alt="Hemispheric Weather Logo">
+          </a>
+        </div>
+        <div class="navbar-nav navbar-right">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Visualizations
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="vis_cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="vis_humidity.html">Humidity</a>
+              <a class="dropdown-item" href="vis_temperature.html">Temperature</a>
+              <a class="dropdown-item disabled" href="vis_wind_speed.html">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="comparison.html">Comparison</a></li>
+          <li class="nav-item"><a class="nav-link" href="data.html">Data</a></li>
+        </div>
+      </div>
+    </nav>
+    <!---------------------------------------------------------------------
+      Start of Unique Page Content
+    ---------------------------------------------------------------------->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-7">
+          <h1>Wind Speed</h1>
+          <hr style="height:1px"/>
+          <img class="img-fluid" src="Resources/WindSpeed.png"/>
+          <p>This plot shows no strong trends of wind speeds with respect to latitude.  Some cities in high latitudes of the Northern Hemisphere showed high wind speeds.  This could be attributed to a seasonal influence.</p>
+          <br/>
+          <p>Answers to Your Questions:</p>
+          <li>Wind speed are fairly uniform with latitude, and possibly increasing near the poles or during winter.</li>
+          <li>Wind speeds do not tend to increase in the middle latitudes.</li>
+          <li>The lack of wind speeds above 12 mph near the equator do support the possible influence of doldrums.</li>
+        </div>
+        <div class="col-md-5">
+          <h1>Visualizations</h1>
+          <hr style="height:1px"/>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6 d-flex justify-content-center">
+                <a href="vis_temperature.html">
+                  <img class="img-fluid" src="Resources/Temperature.png"/>
+                </a>
+              </div>
+              <div class="col-md-6 d-flex justify-content-center">
+                <a href="vis_humidity.html">
+                  <img class="img-fluid" src="Resources/Humidity.png"/>
+                </a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 d-flex justify-content-center">
+                <a href="vis_cloudiness.html">
+                  <img class="img-fluid" src="Resources/Cloudiness.png"/>
+                </a>
+              </div>
+              <div class="col-md-6 d-flex justify-content-center">
+                <a href="vis_wind_speed.html">
+                  <img class="img-fluid border" src="Resources/WindSpeed.png"/>
+                </a>
+              </div>
+           </div>
+\        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+  </body>
+</html>
